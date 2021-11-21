@@ -1,10 +1,11 @@
 package jp.ac.hal.yoongeonung.notify;
 
-import org.springframework.boot.SpringApplication;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
@@ -14,12 +15,20 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.List;
 
+@Component
 public class NotifyController {
-    // 103 *(60 * 1000) 1h 43m
+    // 103 *(60 * 1000)  = 1h 43m
     private static final long SLEEP_TIME = 103 *(60 * 1000);
     // switch
     private static boolean power = true;
     private static boolean button = false;
+    // token key
+    private static TokenKey tokenKey;
+
+    @Autowired
+    public NotifyController(TokenKey tokenKey) {
+        this.tokenKey = tokenKey;
+    }
 
     public static void main(String[] args) throws InterruptedException {
         MultiValueMap<String, String> params = new LinkedMultiValueMap<>();
@@ -68,7 +77,7 @@ public class NotifyController {
     private static void connectLine(MultiValueMap<String, String> params) throws InterruptedException {
         if (!params.isEmpty()) {
             HttpHeaders headers = new HttpHeaders();
-            headers.add("Authorization","Bearer wBle3lLBgQC5Xm7pfj6720Qyu8230OgpCwQpJArllDD");
+            headers.add("Authorization","Bearer " + tokenKey);
             headers.add("Content-Type", "application/x-www-form-urlencoded");
 
             HttpEntity<MultiValueMap<String, String>> entity = new HttpEntity<>(params, headers);
