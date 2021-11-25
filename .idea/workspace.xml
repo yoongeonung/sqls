@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cd9fe2b-b701-4e10-ae7c-a446ad62bd07" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jp/ac/hal/yoongeonung/notify/DayOfWeek.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jp/ac/hal/yoongeonung/notify/NotifyApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jp/ac/hal/yoongeonung/notify/NotifyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jp/ac/hal/yoongeonung/notify/TimeTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jp/ac/hal/yoongeonung/notify/TokenKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jp/ac/hal/yoongeonung/notify/NotifyApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +98,13 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="Io42Kadai0726Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="notify.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jp.ac.hal.io42_kadai07_26.Io42Kadai0726Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NotifyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="notify.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="jp.ac.hal.yoongeonung.notify.NotifyApplication" />
@@ -141,7 +135,7 @@
       <workItem from="1637559264065" duration="4130000" />
       <workItem from="1637563424807" duration="6267000" />
       <workItem from="1637739900044" duration="3932000" />
-      <workItem from="1637842397130" duration="156000" />
+      <workItem from="1637842397130" duration="292000" />
     </task>
     <servers />
   </component>
