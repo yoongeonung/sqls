@@ -1,4 +1,4 @@
-package jp.ac.hal.io42_kadai07_26.pythontest;
+package jp.ac.hal.notify.pythontest;
 
 import org.junit.jupiter.api.Test;
 

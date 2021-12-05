@@ -1,4 +1,4 @@
-package jp.ac.hal.io42_kadai07_26;
+package jp.ac.hal.notify;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.ObjectProvider;

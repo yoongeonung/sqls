@@ -1,4 +1,4 @@
-package jp.ac.hal.io42_kadai07_26;
+package jp.ac.hal.notify;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.util.LinkedMultiValueMap;

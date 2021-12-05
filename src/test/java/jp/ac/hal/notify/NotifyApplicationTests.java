@@ -1,10 +1,10 @@
-package jp.ac.hal.io42_kadai07_26;
+package jp.ac.hal.notify;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Io42Kadai0726ApplicationTests {
+class NotifyApplicationTests {
 
 	@Test
 	void contextLoads() {

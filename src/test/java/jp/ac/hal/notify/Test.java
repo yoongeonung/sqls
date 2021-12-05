@@ -1,7 +1,6 @@
-package jp.ac.hal.io42_kadai07_26;
+package jp.ac.hal.notify;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.LinkedList;
 
 public class Test {
